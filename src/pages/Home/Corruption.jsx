@@ -15,7 +15,7 @@ const Corruption = () => {
           transform="capitalize"
           size={"1.5rem"}
           sx={(theme) => ({
-            font: "bolder 5vw 'Alfa Slab One'",
+            font: "bolder 3vw 'Alfa Slab One'",
             position: "relative",
             backgroundColor: theme.colors.yellow[6],
             boxShadow: "0 0 1rem 0 rgba(0, 0, 0, .2)",
@@ -23,7 +23,14 @@ const Corruption = () => {
             borderRadius: "5px",
             color: theme.white,
             zIndex: 1,
-            right: "-40%",
+            borderRadius: "100%",
+            width: 600,
+            height: 600,
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            right: "29%",
+            bottom: "45%",
             "&::before": {
               content: "''",
               position: "absolute",
@@ -34,7 +41,8 @@ const Corruption = () => {
             },
           })}
         >
-          No more corruption
+          No more <br />
+          corruption
         </Text>
       </Stack>
     </>

@@ -14,10 +14,13 @@ const Showcase = () => {
         <Text
           align="center"
           size={"1.5rem"}
-          color={"#130b73b5"}
           sx={(theme) => ({
-            backgroundColor: theme.colors.dark[0],
+            backgroundColor: theme.colors.yellow[0],
             borderRadius: "5px",
+            fontSize: "3vw",
+            letterSpacing: "0.7rem",
+            padding: "0 5px",
+            color: theme.colors.yellow[9],
           })}
         >
           Government Open Data
@@ -29,6 +32,7 @@ const Showcase = () => {
             alignItems: "baseline",
             justifyContent: "center",
             color: theme.colors.yellow[5],
+            fontSize: "2rem",
           })}
         >
           Now in{" "}
@@ -42,7 +46,7 @@ const Showcase = () => {
               backgroundColor: "green",
               backgroundPosition: "center",
               color: "transparent",
-              font: "bolder 12vw 'Alfa Slab One'"
+              font: "bolder 12vw 'Alfa Slab One'",
             }}
           >
             Brazil

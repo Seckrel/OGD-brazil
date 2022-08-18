@@ -36,7 +36,7 @@ const Home = () => {
         </CustomParallax>
         <CustomParallax
           offset={2}
-          speed={0.3}
+          speed={0.5}
           imgSrc={hand}
           backgroundPosition={"center top"}
         >
