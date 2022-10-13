@@ -20,23 +20,23 @@ export default function CustomizedFooter() {
         >
           <BrandGithub size={18} />
         </ActionIcon>
-        <ActionIcon size="lg" variant="default" radius="xl">
-          <BrandInstagram size={18} color={"white"} />
+        <ActionIcon
+          size="lg"
+          variant="default"
+          radius="xl"
+          href={"https://www.instagram.com/aayam_oza/"}
+        >
+          <BrandInstagram size={18} />
         </ActionIcon>
         <ActionIcon
           component="a"
           target={"_blank"}
-          href={"https://www.instagram.com/aayam_oza/"}
           size="lg"
           variant="default"
           radius="xl"
+          href="https://www.facebook.com/Seckrell/"
         >
-          <BrandFacebook
-            component="a"
-            href="https://www.facebook.com/Seckrell/"
-            target="_blank"
-            size={18}
-          />
+          <BrandFacebook component="a" target="_blank" size={18} />
         </ActionIcon>
       </Group>
     </Footer>

@@ -55,6 +55,7 @@ export default function CutomizedHeader() {
             <ButtonAchor href="/">Home</ButtonAchor>
             <ButtonAchor href="/covid-info">Covid</ButtonAchor>
             <ButtonAchor href="/cities-info">Cities Info</ButtonAchor>
+            <ButtonAchor href="/weather-info">Weather</ButtonAchor>
             <ActionIcon
               onClick={() => toggleColorScheme()}
               size="lg"
