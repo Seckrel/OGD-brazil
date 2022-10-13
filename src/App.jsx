@@ -23,7 +23,6 @@ function App() {
       colorScheme={colorScheme}
       toggleColorScheme={toggleColorScheme}
     >
-      {console.log(colorScheme)}
       <MantineProvider
         theme={{ colorScheme }}
         withGlobalStyles
